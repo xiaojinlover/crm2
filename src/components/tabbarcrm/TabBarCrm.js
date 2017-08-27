@@ -8,6 +8,8 @@ class TabBarCrm extends React.Component {
     };
   } 
 
+
+
   render() {
     return (
       <TabBar
@@ -18,12 +20,7 @@ class TabBarCrm extends React.Component {
         <TabBar.Item
           title="首页"
           key="首页"
-          icon={<div style={{
-            width: 28,
-            height: 28,
-            background: 'url(https://zos.alipayobjects.com/rmsportal/iSrlOTqrKddqbOmlvUfq.svg) center center /  28px 28px no-repeat' }}
-          />
-          }
+          icon=<Icon type={require('./home.svg')}/> 	
           selectedIcon={<div style={{
             width: 28,
             height: 28,
